@@ -32,7 +32,7 @@ module OffsitePayments #:nodoc:
         mapping :amount, 'amount'
         mapping :account, 'key'
         mapping :order, 'txnid'
-        mapping :productinfo, 'productinfo'
+        mapping :description, 'productinfo'
 
         mapping :customer, :first_name => 'firstname',
           :last_name  => 'lastname',
